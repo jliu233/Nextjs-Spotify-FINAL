@@ -1,0 +1,29 @@
+.btn {
+    background-color: limegreen;
+    border: 0;
+    padding: 1rem;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 500px;
+    &.secondary {
+        background-color: white;
+        border-color: limegreen;
+        border-width: 4;
+        color: black;
+    }
+    &.size-sm {
+        font-size: .5rem;
+        font-weight: 300;
+        padding: .25rem .5rem;
+    }
+    &.size-md {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    &.size-lg {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+}
