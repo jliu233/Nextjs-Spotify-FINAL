@@ -1,8 +1,8 @@
-@use '../sass/abstracts/mixins.scss';
-@use'../sass/abstracts/vars.scss';
+@use '../sass/abstracts/mixins';
+@use '../sass/abstracts/vars';
 
 .heading {
-    font-family: $font;
+    font-family: vars.$font;
     font-weight: bold;
     &.heading1 {
         font-size: 2.25rem;

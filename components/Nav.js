@@ -32,10 +32,11 @@ const Nav = ({ mobile, flexDirection }) => {
                         return <li key={index} className={styles.listItem}>
                             <Link 
                             href={`/${navLink.slug}`}
+                            className={styles.link}
                             >
-                            <a className={styles.link}>
+                           
                             {navLink.label}
-                            </a>
+                            
                             </Link>
                         </li>
                     })}
