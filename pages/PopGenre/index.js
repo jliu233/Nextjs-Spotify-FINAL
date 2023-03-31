@@ -1,6 +1,6 @@
-import Container from '../components/Container';
+import Container from '../../components/Container';
 import Heading from '../../components/Heading';
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 
 
 const PopGenrePage = () => {
